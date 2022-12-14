@@ -11,7 +11,7 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://github.com/qa-course/react-app"
+          href="https://github.com/qa-course/react-app/tree/develop"
           target="_blank"
           rel="noopener noreferrer"
         >
