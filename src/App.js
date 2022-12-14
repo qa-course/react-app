@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Мы на ветке <code>main</code>. Этот код пойдет в production!
+          Мы на ветке <code>develop</code>. Здесь мы добавляем новый функционал
         </p>
         <a
           className="App-link"
