@@ -1,4 +1,13 @@
+import React from 'react';
+import { render } from '@testing-library/react';
+import App from './App';
 import { compareTwoNumbers, sumTwoNumbers } from './utils';
+
+it('renders repository link', () => {
+  const { getByText } = render(<App />);
+  const linkElement = getByText(/Репозиторий проекта на GitHub/i);
+  expect(linkElement).toBeInTheDocument();
+});
 
 it('sumTwoNumbers', () => {
   expect(sumTwoNumbers(4, 10)).toEqual(14);
